@@ -27,6 +27,9 @@ PRODUCT_COPY_FILES += \
     vendor/lge/vs985/proprietary/etc/acdbdata/Headset_cal.acdb:system/etc/acdbdata/Headset_cal.acdb \
     vendor/lge/vs985/proprietary/etc/acdbdata/Speaker_cal.acdb:system/etc/acdbdata/Speaker_cal.acdb \
     vendor/lge/vs985/proprietary/etc/acdbdata/workspaceFile.qwsp:system/etc/acdbdata/workspaceFile.qwsp \
+    vendor/lge/vs985/proprietary/etc/data/dsi_config.xml:system/etc/data/dsi_config.xml \
+    vendor/lge/vs985/proprietary/etc/data/netmgr_config.xml:system/etc/data/netmgr_config.xml \
+    vendor/lge/vs985/proprietary/etc/data/qmi_config.xml:system/etc/data/qmi_config.xml \
     vendor/lge/vs985/proprietary/etc/firmware/venus.b00:system/etc/firmware/venus.b00 \
     vendor/lge/vs985/proprietary/etc/firmware/venus.b01:system/etc/firmware/venus.b01 \
     vendor/lge/vs985/proprietary/etc/firmware/venus.b02:system/etc/firmware/venus.b02 \
