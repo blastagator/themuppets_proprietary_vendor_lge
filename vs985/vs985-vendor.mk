@@ -37,6 +37,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/vs985/proprietary/etc/firmware/venus.b04:system/etc/firmware/venus.b04 \
     vendor/lge/vs985/proprietary/etc/firmware/venus.mbn:system/etc/firmware/venus.mbn \
     vendor/lge/vs985/proprietary/etc/firmware/venus.mdt:system/etc/firmware/venus.mdt \
+    vendor/lge/vs985/proprietary/etc/sensors/sensor_def_variable.conf:system/etc/sensors/sensor_def_variable.conf \
     vendor/lge/vs985/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/lge/vs985/proprietary/lib/libuicc.so:system/lib/libuicc.so \
     vendor/lge/vs985/proprietary/lib/libvss_common_idl.so:system/lib/libvss_common_idl.so \
