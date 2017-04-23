@@ -66,5 +66,15 @@ include $(BUILD_PREBUILT)
 ## Symlinks
 # Some blobs don't have libC2D2 capitalized.  Symlink to be safe.
 $(shell mkdir -p $(PRODUCT_OUT)/system/vendor/lib && pushd $(PRODUCT_OUT)/system/vendor/lib > /dev/null && ln -s libC2D2.so libc2d2.so && popd > /dev/null)
+# wcnss is in modem (files 3 and 5 don't exist)
+$(shell mkdir -p $(PRODUCT_OUT)/system/vendor/firmware && pushd $(PRODUCT_OUT)/system/vendor/firmware > /dev/null && ln -s /firmware/image/wcnss.mdt wcnss.mdt && popd > /dev/null)
+$(shell mkdir -p $(PRODUCT_OUT)/system/vendor/firmware && pushd $(PRODUCT_OUT)/system/vendor/firmware > /dev/null && ln -s /firmware/image/wcnss.b00 wcnss.b00 && popd > /dev/null)
+$(shell mkdir -p $(PRODUCT_OUT)/system/vendor/firmware && pushd $(PRODUCT_OUT)/system/vendor/firmware > /dev/null && ln -s /firmware/image/wcnss.b01 wcnss.b01 && popd > /dev/null)
+$(shell mkdir -p $(PRODUCT_OUT)/system/vendor/firmware && pushd $(PRODUCT_OUT)/system/vendor/firmware > /dev/null && ln -s /firmware/image/wcnss.b02 wcnss.b02 && popd > /dev/null)
+$(shell mkdir -p $(PRODUCT_OUT)/system/vendor/firmware && pushd $(PRODUCT_OUT)/system/vendor/firmware > /dev/null && ln -s /firmware/image/wcnss.b04 wcnss.b04 && popd > /dev/null)
+$(shell mkdir -p $(PRODUCT_OUT)/system/vendor/firmware && pushd $(PRODUCT_OUT)/system/vendor/firmware > /dev/null && ln -s /firmware/image/wcnss.b06 wcnss.b06 && popd > /dev/null)
+$(shell mkdir -p $(PRODUCT_OUT)/system/vendor/firmware && pushd $(PRODUCT_OUT)/system/vendor/firmware > /dev/null && ln -s /firmware/image/wcnss.b07 wcnss.b07 && popd > /dev/null)
+$(shell mkdir -p $(PRODUCT_OUT)/system/vendor/firmware && pushd $(PRODUCT_OUT)/system/vendor/firmware > /dev/null && ln -s /firmware/image/wcnss.b08 wcnss.b08 && popd > /dev/null)
+$(shell mkdir -p $(PRODUCT_OUT)/system/vendor/firmware && pushd $(PRODUCT_OUT)/system/vendor/firmware > /dev/null && ln -s /firmware/image/wcnss.b09 wcnss.b09 && popd > /dev/null)
 
 endif
