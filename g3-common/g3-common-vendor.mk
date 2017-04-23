@@ -25,9 +25,11 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g3-common/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
     vendor/lge/g3-common/proprietary/bin/thermal-engine:system/bin/thermal-engine \
     vendor/lge/g3-common/proprietary/bin/time_daemon:system/bin/time_daemon \
-    vendor/lge/g3-common/proprietary/etc/firmware/DLdata_rev28B_data1.ecl:system/etc/firmware/DLdata_rev28B_data1.ecl \
-    vendor/lge/g3-common/proprietary/etc/firmware/DLdata_rev28B_data2.ecl:system/etc/firmware/DLdata_rev28B_data2.ecl \
-    vendor/lge/g3-common/proprietary/etc/firmware/DLdata_rev28B_data3.ecl:system/etc/firmware/DLdata_rev28B_data3.ecl \
+    vendor/lge/g3-common/proprietary/etc/firmware/a225p5_pm4.fw:system/etc/firmware/a225p5_pm4.fw \
+    vendor/lge/g3-common/proprietary/etc/firmware/a225_pfp.fw:system/etc/firmware/a225_pfp.fw \
+    vendor/lge/g3-common/proprietary/etc/firmware/a225_pm4.fw:system/etc/firmware/a225_pm4.fw \
+    vendor/lge/g3-common/proprietary/etc/firmware/a300_pfp.fw:system/etc/firmware/a300_pfp.fw \
+    vendor/lge/g3-common/proprietary/etc/firmware/a300_pm4.fw:system/etc/firmware/a300_pm4.fw \
     vendor/lge/g3-common/proprietary/etc/firmware/a330_pfp.fw:system/etc/firmware/a330_pfp.fw \
     vendor/lge/g3-common/proprietary/etc/firmware/a330_pm4.fw:system/etc/firmware/a330_pm4.fw \
     vendor/lge/g3-common/proprietary/etc/firmware/bu24205_LGIT_rev16_1_2030_data1.bin:system/etc/firmware/bu24205_LGIT_rev16_1_2030_data1.bin \
@@ -40,11 +42,17 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g3-common/proprietary/etc/firmware/cpp_firmware_v1_1_6.fw:system/etc/firmware/cpp_firmware_v1_1_6.fw \
     vendor/lge/g3-common/proprietary/etc/firmware/cpp_firmware_v1_2_0.fw:system/etc/firmware/cpp_firmware_v1_2_0.fw \
     vendor/lge/g3-common/proprietary/etc/firmware/cpp_firmware_v1_2_1.fw:system/etc/firmware/cpp_firmware_v1_2_1.fw \
+    vendor/lge/g3-common/proprietary/etc/firmware/DLdata_rev28B_data1.ecl:system/etc/firmware/DLdata_rev28B_data1.ecl \
+    vendor/lge/g3-common/proprietary/etc/firmware/DLdata_rev28B_data2.ecl:system/etc/firmware/DLdata_rev28B_data2.ecl \
+    vendor/lge/g3-common/proprietary/etc/firmware/DLdata_rev28B_data3.ecl:system/etc/firmware/DLdata_rev28B_data3.ecl \
+    vendor/lge/g3-common/proprietary/etc/firmware/leia_pfp_470.fw:system/etc/firmware/leia_pfp_470.fw \
+    vendor/lge/g3-common/proprietary/etc/firmware/leia_pm4_470.fw:system/etc/firmware/leia_pm4_470.fw \
     vendor/lge/g3-common/proprietary/etc/permissions/qcnvitems.xml:system/etc/permissions/qcnvitems.xml \
     vendor/lge/g3-common/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
     vendor/lge/g3-common/proprietary/etc/sensors/sensor_def_common.conf:system/etc/sensors/sensor_def_common.conf \
     vendor/lge/g3-common/proprietary/framework/qcnvitems.jar:system/framework/qcnvitems.jar \
     vendor/lge/g3-common/proprietary/framework/qcrilhook.jar:system/framework/qcrilhook.jar \
+    vendor/lge/g3-common/proprietary/lib/egl/egl.cfg:system/lib/egl/egl.cfg \
     vendor/lge/g3-common/proprietary/lib/hw/camera.vendor.msm8974.so:system/lib/hw/camera.vendor.msm8974.so \
     vendor/lge/g3-common/proprietary/lib/hw/consumerir.msm8974.so:system/lib/hw/consumerir.msm8974.so \
     vendor/lge/g3-common/proprietary/lib/libAlAisLib.so:system/lib/libAlAisLib.so \
@@ -64,6 +72,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g3-common/proprietary/lib/libmorpho_image_stab31.so:system/lib/libmorpho_image_stab31.so \
     vendor/lge/g3-common/proprietary/lib/libmorpho_noise_reduction.so:system/lib/libmorpho_noise_reduction.so \
     vendor/lge/g3-common/proprietary/lib/libmorpho_video_denoiser.so:system/lib/libmorpho_video_denoiser.so \
+    vendor/lge/g3-common/proprietary/lib/libmm-omxcore.so:system/lib/libmm-omxcore.so \
     vendor/lge/g3-common/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/lge/g3-common/proprietary/lib/librmnetctl.so:system/lib/librmnetctl.so \
     vendor/lge/g3-common/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
@@ -72,6 +81,8 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g3-common/proprietary/vendor/lib/egl/libGLESv1_CM_adreno.so:system/vendor/lib/egl/libGLESv1_CM_adreno.so \
     vendor/lge/g3-common/proprietary/vendor/lib/egl/libGLESv2_adreno.so:system/vendor/lib/egl/libGLESv2_adreno.so \
     vendor/lge/g3-common/proprietary/vendor/lib/egl/libq3dtools_adreno.so:system/vendor/lib/egl/libq3dtools_adreno.so \
+    vendor/lge/g3-common/proprietary/vendor/lib/hw/activity_recognition.msm8974.so:system/vendor/lib/hw/activity_recognition.msm8974.so \
+    vendor/lge/g3-common/proprietary/vendor/lib/hw/flp.default.so:system/vendor/lib/hw/flp.default.so \
     vendor/lge/g3-common/proprietary/vendor/lib/hw/sensors.msm8974.so:system/vendor/lib/hw/sensors.msm8974.so \
     vendor/lge/g3-common/proprietary/vendor/lib/libC2D2.so:system/vendor/lib/libC2D2.so \
     vendor/lge/g3-common/proprietary/vendor/lib/libCB.so:system/vendor/lib/libCB.so \
@@ -159,6 +170,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g3-common/proprietary/vendor/lib/libdrmtime.so:system/vendor/lib/libdrmtime.so \
     vendor/lge/g3-common/proprietary/vendor/lib/libfastcvadsp_stub.so:system/vendor/lib/libfastcvadsp_stub.so \
     vendor/lge/g3-common/proprietary/vendor/lib/libfastcvopt.so:system/vendor/lib/libfastcvopt.so \
+    vendor/lge/g3-common/proprietary/vendor/lib/libflp.so:system/vendor/lib/libflp.so \
     vendor/lge/g3-common/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
     vendor/lge/g3-common/proprietary/vendor/lib/libgsl.so:system/vendor/lib/libgsl.so \
     vendor/lge/g3-common/proprietary/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so \
@@ -198,7 +210,15 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g3-common/proprietary/vendor/lib/libmmjpeg.so:system/vendor/lib/libmmjpeg.so \
     vendor/lge/g3-common/proprietary/vendor/lib/libmmqjpeg_codec.so:system/vendor/lib/libmmqjpeg_codec.so \
     vendor/lge/g3-common/proprietary/vendor/lib/liboemcamera.so:system/vendor/lib/liboemcamera.so \
+    vendor/lge/g3-common/proprietary/vendor/lib/liboemcrypto.so:system/vendor/lib/liboemcrypto.so \
+    vendor/lge/g3-common/proprietary/vendor/lib/libOmxAacDec.so:system/vendor/lib/libOmxAacDec.so \
+    vendor/lge/g3-common/proprietary/vendor/lib/libOmxAmrwbplusDec.so:system/vendor/lib/libOmxAmrwbplusDec.so \
+    vendor/lge/g3-common/proprietary/vendor/lib/libOmxEvrcDec.so:system/vendor/lib/libOmxEvrcDec.so \
+    vendor/lge/g3-common/proprietary/vendor/lib/libOmxMux.so:system/vendor/lib/libOmxMux.so \
+    vendor/lge/g3-common/proprietary/vendor/lib/libOmxQcelp13Dec.so:system/vendor/lib/libOmxQcelp13Dec.so \
+    vendor/lge/g3-common/proprietary/vendor/lib/libOmxWmaDec.so:system/vendor/lib/libOmxWmaDec.so \
     vendor/lge/g3-common/proprietary/vendor/lib/libperipheral_client.so:system/vendor/lib/libperipheral_client.so \
+    vendor/lge/g3-common/proprietary/vendor/lib/libqomx_jpegdec.so:system/vendor/lib/libqomx_jpegdec.so \
     vendor/lge/g3-common/proprietary/vendor/lib/libqomx_jpegenc.so:system/vendor/lib/libqomx_jpegenc.so \
     vendor/lge/g3-common/proprietary/vendor/lib/libqti-perfd-client.so:system/vendor/lib/libqti-perfd-client.so \
     vendor/lge/g3-common/proprietary/vendor/lib/librpmb.so:system/vendor/lib/librpmb.so \
