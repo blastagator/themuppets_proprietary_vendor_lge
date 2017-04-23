@@ -25,9 +25,11 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g3-common/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
     vendor/lge/g3-common/proprietary/bin/thermal-engine:system/bin/thermal-engine \
     vendor/lge/g3-common/proprietary/bin/time_daemon:system/bin/time_daemon \
-    vendor/lge/g3-common/proprietary/etc/firmware/DLdata_rev28B_data1.ecl:system/etc/firmware/DLdata_rev28B_data1.ecl \
-    vendor/lge/g3-common/proprietary/etc/firmware/DLdata_rev28B_data2.ecl:system/etc/firmware/DLdata_rev28B_data2.ecl \
-    vendor/lge/g3-common/proprietary/etc/firmware/DLdata_rev28B_data3.ecl:system/etc/firmware/DLdata_rev28B_data3.ecl \
+    vendor/lge/g3-common/proprietary/etc/firmware/a225p5_pm4.fw:system/etc/firmware/a225p5_pm4.fw \
+    vendor/lge/g3-common/proprietary/etc/firmware/a225_pfp.fw:system/etc/firmware/a225_pfp.fw \
+    vendor/lge/g3-common/proprietary/etc/firmware/a225_pm4.fw:system/etc/firmware/a225_pm4.fw \
+    vendor/lge/g3-common/proprietary/etc/firmware/a300_pfp.fw:system/etc/firmware/a300_pfp.fw \
+    vendor/lge/g3-common/proprietary/etc/firmware/a300_pm4.fw:system/etc/firmware/a300_pm4.fw \
     vendor/lge/g3-common/proprietary/etc/firmware/a330_pfp.fw:system/etc/firmware/a330_pfp.fw \
     vendor/lge/g3-common/proprietary/etc/firmware/a330_pm4.fw:system/etc/firmware/a330_pm4.fw \
     vendor/lge/g3-common/proprietary/etc/firmware/bu24205_LGIT_rev16_1_2030_data1.bin:system/etc/firmware/bu24205_LGIT_rev16_1_2030_data1.bin \
@@ -40,6 +42,11 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g3-common/proprietary/etc/firmware/cpp_firmware_v1_1_6.fw:system/etc/firmware/cpp_firmware_v1_1_6.fw \
     vendor/lge/g3-common/proprietary/etc/firmware/cpp_firmware_v1_2_0.fw:system/etc/firmware/cpp_firmware_v1_2_0.fw \
     vendor/lge/g3-common/proprietary/etc/firmware/cpp_firmware_v1_2_1.fw:system/etc/firmware/cpp_firmware_v1_2_1.fw \
+    vendor/lge/g3-common/proprietary/etc/firmware/DLdata_rev28B_data1.ecl:system/etc/firmware/DLdata_rev28B_data1.ecl \
+    vendor/lge/g3-common/proprietary/etc/firmware/DLdata_rev28B_data2.ecl:system/etc/firmware/DLdata_rev28B_data2.ecl \
+    vendor/lge/g3-common/proprietary/etc/firmware/DLdata_rev28B_data3.ecl:system/etc/firmware/DLdata_rev28B_data3.ecl \
+    vendor/lge/g3-common/proprietary/etc/firmware/leia_pfp_470.fw:system/etc/firmware/leia_pfp_470.fw \
+    vendor/lge/g3-common/proprietary/etc/firmware/leia_pm4_470.fw:system/etc/firmware/leia_pm4_470.fw \
     vendor/lge/g3-common/proprietary/etc/permissions/qcnvitems.xml:system/etc/permissions/qcnvitems.xml \
     vendor/lge/g3-common/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
     vendor/lge/g3-common/proprietary/etc/sensors/sensor_def_common.conf:system/etc/sensors/sensor_def_common.conf \
