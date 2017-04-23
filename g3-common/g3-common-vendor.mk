@@ -66,15 +66,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g3-common/proprietary/lib/libmorpho_video_denoiser.so:system/lib/libmorpho_video_denoiser.so \
     vendor/lge/g3-common/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/lge/g3-common/proprietary/lib/librmnetctl.so:system/lib/librmnetctl.so \
-    vendor/lge/g3-common/proprietary/vendor/firmware/wcnss.b00:system/vendor/firmware/wcnss.b00 \
-    vendor/lge/g3-common/proprietary/vendor/firmware/wcnss.b01:system/vendor/firmware/wcnss.b01 \
-    vendor/lge/g3-common/proprietary/vendor/firmware/wcnss.b02:system/vendor/firmware/wcnss.b02 \
-    vendor/lge/g3-common/proprietary/vendor/firmware/wcnss.b04:system/vendor/firmware/wcnss.b04 \
-    vendor/lge/g3-common/proprietary/vendor/firmware/wcnss.b06:system/vendor/firmware/wcnss.b06 \
-    vendor/lge/g3-common/proprietary/vendor/firmware/wcnss.b07:system/vendor/firmware/wcnss.b07 \
-    vendor/lge/g3-common/proprietary/vendor/firmware/wcnss.b08:system/vendor/firmware/wcnss.b08 \
-    vendor/lge/g3-common/proprietary/vendor/firmware/wcnss.b09:system/vendor/firmware/wcnss.b09 \
-    vendor/lge/g3-common/proprietary/vendor/firmware/wcnss.mdt:system/vendor/firmware/wcnss.mdt \
     vendor/lge/g3-common/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
     vendor/lge/g3-common/proprietary/vendor/lib/egl/eglsubAndroid.so:system/vendor/lib/egl/eglsubAndroid.so \
     vendor/lge/g3-common/proprietary/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
