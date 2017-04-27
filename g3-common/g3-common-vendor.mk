@@ -55,21 +55,17 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g3-common/proprietary/lib/egl/egl.cfg:system/lib/egl/egl.cfg \
     vendor/lge/g3-common/proprietary/lib/hw/camera.vendor.msm8974.so:system/lib/hw/camera.vendor.msm8974.so \
     vendor/lge/g3-common/proprietary/lib/hw/consumerir.msm8974.so:system/lib/hw/consumerir.msm8974.so \
-    vendor/lge/g3-common/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
     vendor/lge/g3-common/proprietary/lib/libAlAisLib.so:system/lib/libAlAisLib.so \
     vendor/lge/g3-common/proprietary/lib/libAlAisWrap.so:system/lib/libAlAisWrap.so \
     vendor/lge/g3-common/proprietary/lib/libAlAisTune.so:system/lib/libAlAisTune.so \
+    vendor/lge/g3-common/proprietary/lib/libHDR.so:system/lib/libHDR.so \
     vendor/lge/g3-common/proprietary/lib/libalmalib.so:system/lib/libalmalib.so \
     vendor/lge/g3-common/proprietary/lib/libalmcascore.so:system/lib/libalmcascore.so \
     vendor/lge/g3-common/proprietary/lib/libalmcaswrap.so:system/lib/libalmcaswrap.so \
     vendor/lge/g3-common/proprietary/lib/libarcsoft_beauty_shot.so:system/lib/libarcsoft_beauty_shot.so \
     vendor/lge/g3-common/proprietary/lib/libcir_driver.so:system/lib/libcir_driver.so \
-    vendor/lge/g3-common/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
-    vendor/lge/g3-common/proprietary/lib/libHDR.so:system/lib/libHDR.so \
     vendor/lge/g3-common/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
-    vendor/lge/g3-common/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
     vendor/lge/g3-common/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
-    vendor/lge/g3-common/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
     vendor/lge/g3-common/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
     vendor/lge/g3-common/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
     vendor/lge/g3-common/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
