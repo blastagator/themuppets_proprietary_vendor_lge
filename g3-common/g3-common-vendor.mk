@@ -300,11 +300,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g3-common/proprietary/vendor/lib/soundfx/libqcreverb.so:system/vendor/lib/soundfx/libqcreverb.so \
     vendor/lge/g3-common/proprietary/vendor/lib/soundfx/libqcvirt.so:system/vendor/lib/soundfx/libqcvirt.so
 
-# Symlink - some libraries have this file not capitalized
-# (unsure if this is needed)
-PRODUCT_COPY_FILES += \
-    vendor/lge/g3-common/proprietary/vendor/lib/libc2d2.so:system/vendor/lib/libc2d2.so
-
 PRODUCT_PACKAGES += \
     libtime_genoff \
     TimeService \
