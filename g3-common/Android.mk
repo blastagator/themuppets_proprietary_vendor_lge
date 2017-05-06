@@ -63,4 +63,8 @@ LOCAL_MODULE_SUFFIX := .apk
 LOCAL_PRIVILEGED_MODULE := true
 include $(BUILD_PREBUILT)
 
+## Symlinks
+# Some blobs don't have libC2D2 capitalized.  Symlink to be safe.
+$(shell mkdir -p $(PRODUCT_OUT)/system/vendor/lib && pushd $(PRODUCT_OUT)/system/vendor/lib > /dev/null && ln -s libC2D2.so libc2d2.so && popd > /dev/null)
+
 endif
