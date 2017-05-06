@@ -105,6 +105,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g3-common/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/lge/g3-common/proprietary/lib/librmnetctl.so:system/lib/librmnetctl.so \
     vendor/lge/g3-common/proprietary/lib/libvss_ims_qcci.so:system/lib/libvss_ims_qcci.so \
+    vendor/lge/g3-common/proprietary/priv-app/Ims4/Ims4.apk:system/priv-app/Ims4/Ims4.apk \
     vendor/lge/g3-common/proprietary/vendor/firmware/pn547_fw.so:system/vendor/firmware/pn547_fw.so \
     vendor/lge/g3-common/proprietary/vendor/lib/egl/eglsubAndroid.so:system/vendor/lib/egl/eglsubAndroid.so \
     vendor/lge/g3-common/proprietary/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \

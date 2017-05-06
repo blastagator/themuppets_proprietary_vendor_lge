@@ -66,5 +66,7 @@ include $(BUILD_PREBUILT)
 ## Symlinks
 # Some blobs don't have libC2D2 capitalized.  Symlink to be safe.
 $(shell mkdir -p $(PRODUCT_OUT)/system/vendor/lib && pushd $(PRODUCT_OUT)/system/vendor/lib > /dev/null && ln -s libC2D2.so libc2d2.so && popd > /dev/null)
+# Ims4.apk library
+$(shell mkdir -p $(PRODUCT_OUT)/system/priv-app/Ims4/lib/arm && pushd $(PRODUCT_OUT)/system/priv-app/Ims4/lib/arm > /dev/null && ln -s /system/lib/libims.so libims.so && popd > /dev/null)
 
 endif
